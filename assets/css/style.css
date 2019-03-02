@@ -4,7 +4,8 @@ body{
 }
 .jumbotron{
 	text-align: center;
-	margin-top: 10px;
+    margin-top: 10px;
+    background-color: palegoldenrod;
 }
 .routine {
 	background-color: paleturquoise;
