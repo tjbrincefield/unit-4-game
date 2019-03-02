@@ -1,9 +1,9 @@
 
 //sets up random number user is trying to match
 $( document ).ready(function(){
-    var Random=Math.floor(Math.random()*101+19)
+    var Random=Math.floor(Math.random()*120)+19;
     console.log(Random)
-    $('#number').text(Random);
+    $('#numberRandom').text(Random);
 
 //	setting up four random numbers array, total variable and printing the wins & losses variables	
 var GeneratedNumbers = []
@@ -17,7 +17,7 @@ $('#numberLosses').text(losses);
 //sets up random numbers for each jewel
 function fourRandomNumbers(){
 for (var i = 0; i < 4; i++) {
-    var num = Math.floor(Math.random()*11+1);
+    var num = Math.floor(Math.random()*12)+1;
     GeneratedNumbers.push(num);
 }
 console.log(GeneratedNumbers) 
@@ -28,13 +28,13 @@ fourRandomNumbers();
 
 //resets the game
 function reset(){
-    Random=Math.floor(Math.random()*101+19);
+    Random=Math.floor(Math.random()*101)+19;
     console.log(Random)
-    $('#number').text(Random);
+    $('#numberRandom').text(Random);
     GeneratedNumbers = [];
     fourRandomNumbers();
     total= 0;
-    $('#Combined').text(total);
+    $('#numberScore').text(total);
     } 
 
 //adds the wins to the total
@@ -59,7 +59,7 @@ alert ("You lose!!");
     $('#pink').on ('click', function(){
         total = total + GeneratedNumbers[0];
         console.log("New total= " + total);
-        $('#Combined').text(total);	
+        $('#numberScore').text(total);	
 
                     //sets win/lose conditions
                 if (total == Random){
@@ -73,7 +73,7 @@ alert ("You lose!!");
     $('#purple').on ('click', function(){
         total = total + GeneratedNumbers[1];
         console.log("New total= " + total);
-        $('#Combined').text(total);	
+        $('#numberScore').text(total);	
 
                 if (total == Random){
                     yay();
@@ -86,7 +86,7 @@ alert ("You lose!!");
     $('#blue').on ('click', function(){
         total = total + GeneratedNumbers[2];
         console.log("New total= " + total);
-        $('#Combined').text(total);
+        $('#numberScore').text(total);
 
 //sets win/lose conditions
                     if (total == Random){
@@ -100,7 +100,7 @@ alert ("You lose!!");
     $('#orange').on ('click', function(){
         total = total + GeneratedNumbers[3];
         console.log("New total= " + total);
-        $('#Combined').text(total);	
+        $('#numberScore').text(total);	
 
             
                     if (total == Random){
