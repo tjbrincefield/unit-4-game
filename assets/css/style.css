@@ -1,18 +1,15 @@
 body{
-	background: url("background.jpg")no-repeat center center fixed;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
+	background: url("http://blog.hostbaby.com/wp-content/uploads/2012/05/thumbnail_abstract.jpg");
     background-size: cover;
 }
 .jumbotron{
 	text-align: center;
 	margin-top: 10px;
 }
-.panel-heading{
-	background-color: #F1D487;
+.routine {
+	background-color:;
 }
-#panelStyle{
+#bodyStyle{
 	float:left;
 	margin: 10px 20px 10px 0px;
 }
