@@ -56,7 +56,7 @@ alert ("You lose!!");
 
 
 //sets up click for jewels
-    $('#one').on ('click', function(){
+    $('#pink').on ('click', function(){
         total = total + GeneratedNumbers[0];
         console.log("New total= " + total);
         $('#Combined').text(total);	
@@ -70,7 +70,7 @@ alert ("You lose!!");
                 }		
     })	
 
-    $('#two').on ('click', function(){
+    $('#purple').on ('click', function(){
         total = total + GeneratedNumbers[1];
         console.log("New total= " + total);
         $('#Combined').text(total);	
@@ -83,7 +83,7 @@ alert ("You lose!!");
                 }	
     })	
 
-    $('#three').on ('click', function(){
+    $('#blue').on ('click', function(){
         total = total + GeneratedNumbers[2];
         console.log("New total= " + total);
         $('#Combined').text(total);
@@ -97,7 +97,7 @@ alert ("You lose!!");
                 }	
     })	
 
-    $('#four').on ('click', function(){
+    $('#orange').on ('click', function(){
         total = total + GeneratedNumbers[3];
         console.log("New total= " + total);
         $('#Combined').text(total);	
