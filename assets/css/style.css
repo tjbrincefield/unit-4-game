@@ -11,14 +11,21 @@ body{
 }
 .routine {
     background-color: ;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #bodyStyle{
 	float:left;
 	margin: 10px 20px 10px 0px;
 }
 #crystalStyle {
-    background: transparent;
-    border: 0;
+    /* background: transparent; */
+    /* border: 0; */
     cursor: pointer;
 }
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    background: transparent;
+  }
