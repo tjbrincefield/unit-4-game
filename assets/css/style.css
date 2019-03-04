@@ -1,14 +1,17 @@
 body{
-	background: url("http://blog.hostbaby.com/wp-content/uploads/2012/05/thumbnail_abstract.jpg");
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-u9lvCDx4ezDqUDoHxtqoz-ii-rKPPlZBh3ArmrxMG8OvvdqDZw");
     background-size: cover;
 }
 .jumbotron{
 	text-align: center;
     margin-top: 10px;
-    background-color: palegoldenrod;
+    /* background-color: palegoldenrod; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: transparent;
 }
 .routine {
-	background-color: paleturquoise;
+    background-color: ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #bodyStyle{
 	float:left;
